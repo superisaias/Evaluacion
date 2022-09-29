@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: white;
+}
+.contenedor{
+    justify-content: center;
+    display: flex;
+    border-radius: 30px;
+    background-color: #363853;
+    flex-direction: row;
+    flex-grow: 1;
+    height: 100vh;
+    gap: 10px;
+}
+.sidebar{
+
+    display: flex;
+    flex-direction: column;
+    width: 20rem;
+    background-color: #272944;
+    height: 90vh;
+}
+
+.inf{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    flex-grow: 1;
+    height: 90vh;
+}
+.inf-nav{
+    
+}
+.header-nav{
+    height: 10rem;
+    width: 60rem;
+    flex-direction: row;
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    padding: 10px;
+}
+.nave{
+    height: 4rem;
+    background-color: #272944;
+    width: 40rem;
+}
+.articles-nav{
+    flex-direction: row;
+    display: flex;
+    gap: 10px;
+}
+.art1{
+    height: 3rem;
+    width: 4rem;
+    background-color: #272944;
+    color: white;
+}
+.art2{
+    
+    height: 3rem;
+    width: 3rem;
+    background-color: #272944;
+}
+.text-nav{
+    display: flex;
+    flex-grow: 1;
+    flex-direction: row;
+    justify-content: space-between;
+    color: white;
+    padding-right: 10px;
+}
+.art-text{
+    height: 2rem;
+    width: 10rem;
+    background-color: #272944;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+.container{
+    flex-grow: 1;
+    display: flex;
+    background-color: #272944;
+    
+}
+.art-con{
+    display: flex;
+    width: 80vh;
+    height: 4rem;
+    background-color: #272944;
+}
